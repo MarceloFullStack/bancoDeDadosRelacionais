@@ -4,5 +4,5 @@ create table if not exists prefeitos(
     cidade_id int unsigned,
     primary key(id),
     unique key(cidade_id),
-    foreign key(cidade_id) references cidades(id)
+    foreign key(cidade_id) references cidades (id)
 );
